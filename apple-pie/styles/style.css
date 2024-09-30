@@ -3,7 +3,6 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
-  width: 37%;
 }
 
 *, *:before, *:after {
@@ -20,13 +19,14 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
   line-height: 1.5rem;
+  width: 37%;
 }
 
 /* STYLES */
 /* Write your CSS below */
 /*Header*/
 .background-title {
-    background-image:  url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-image:  url("../../apple-pie/images/apple-pie.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
